@@ -123,7 +123,7 @@ technic to implements the features in UIComponent, this implies to set
 -static-link-runtime-shared-libraries alias -static-rsls to true in the
 compiler setting or, if you use FlashBuilder, to select 'merge into code'
 option in the project properties, if you don't do it, the original 
-UICompenent class will be executed instead of the one of this project.
+UIComponent class will be executed instead of the one of this project.
 
 If you have any questions, thoughts, suggestions, please use the community support 
 mailing list at flex-dev@incubator.apache.org or my email address webdoublefx@gmail.com
