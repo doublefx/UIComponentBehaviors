@@ -1434,7 +1434,12 @@ implements IAutomationObject, IChildList, IConstraintClient,
     //  Class constants
     //
     //--------------------------------------------------------------------------
-
+	
+	
+	public static const AUTOMATION_ENABLED:Boolean = false;
+	public static const STATABLE_ENABLED:Boolean = false;
+	public static const STYLABLE_ENABLED:Boolean = true;
+	
     /**
      *  The default value for the <code>measuredWidth</code> property.
      *  Most components calculate a measuredWidth but some are flow-based and
@@ -1709,7 +1714,7 @@ implements IAutomationObject, IChildList, IConstraintClient,
      *  @playerversion AIR 1.1
      *  @productversion Flex 3
      */
-    public function UIComponent(statable:Boolean = false, stylable:Boolean = true, automatable:Boolean = CONFIG::automationEnabled)
+    public function UIComponent(statable:Boolean = STATABLE_ENABLED, stylable:Boolean = STYLABLE_ENABLED, automatable:Boolean = AUTOMATION_ENABLED)
     {
         super();
 		
