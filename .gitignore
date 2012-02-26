@@ -1,0 +1,15 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+build/
+out/
+
+# Project property files
+.actionScriptProperties
+.flexProperties
+build.gradle
+*.iml
+.FlexUnitSettings/
+.settings/
+.idea/
+.gradle/

@@ -1,0 +1,9 @@
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+  <compiler>
+    <debug>true</debug>
+      <define append="true">
+          <name>CONFIG::performanceInstrumentation</name>
+          <value>true</value>
+      </define>
+  </compiler>
+</flex-config>
