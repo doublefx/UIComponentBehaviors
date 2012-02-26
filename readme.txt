@@ -9,7 +9,7 @@ These instructions are aimed at experienced developers looking to
 participate in the development of UIComponentBehaviors.
 
 If you are new to this project or would like to know more, read the
-help note bellow.
+"GETTING START" note bellow.
 
 ======================================================================
 ONE-TIME SETUP INSTRUCTIONS
@@ -31,7 +31,7 @@ GIT POLICIES
 ======================================================================
 
 When checking into Git, you must provide a commit message.
-You should not commit any IDE.
+You should not commit any IDE file.
 
 Try to avoid "git pull", as it creates lots of commit messages like
 "Merge branch 'master'. You can avoid
